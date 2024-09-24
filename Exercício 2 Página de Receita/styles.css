@@ -1,0 +1,30 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff7e6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Lobster', cursive;
+    color: #ff6347;
+  }
+  
+  img {
+    border: 5px solid #ccc;
+    width: 300px;
+    height: auto;
+  }
+  
+  p {
+    background-color: #ffecd2;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    color: #ff6347;
+  }
+  
