@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Configurações gerais da página, como charset, responsividade e links para CSS e fontes -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Evento Renova Ae</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Fonte -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
+        <!-- Cabeçalho do site com o logo, título da página e menu de navegação -->
         <div class="container">
-            <img src="logo.png" alt="Logo do Evento Renova Ae" class="logo"> 
+            <img src="logo.png" alt="Logo do Evento Renova Ae" class="logo">
             <h1>Contato - Evento Renova Ae</h1>
             <nav>
                 <ul>
+                    <!-- Links para outras páginas do site -->
                     <li><a href="index.html">Início</a></li>
                     <li><a href="programacao.html">Programação</a></li>
                     <li><a href="palestrantes.html">Palestrantes</a></li>
@@ -25,9 +28,10 @@
     </header>
 
     <main>
+        <!-- Seção principal com informações de contato e mapa do local -->
         <section class="contato">
             <h2>Entre em Contato Conosco</h2>
-            <p>Se você tiver dúvidas ou precisar de mais informações, entre em contato com os organizadores do evento:</p>
+            <p>Informações de contato dos organizadores (e-mail, telefone e endereço).</p>
             <ul>
                 <li><strong>Email:</strong> contato@renovaae.com</li>
                 <li><strong>Telefone:</strong> (11) 99999-9999</li>
@@ -35,7 +39,7 @@
             </ul>
 
             <h3>Local do Evento</h3>
-            <!-- Loc. mapa do Google Maps -->
+            <!-- Mapa embutido do Google Maps mostrando a localização do evento -->
             <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d894.7829362343882!2d-52.67074183310302!3d-26.22490848941428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1727309384103!5m2!1spt-BR!2sbr" 
                 width="600" 
@@ -46,7 +50,8 @@
             </iframe>
 
             <h3>Formulário de Contato</h3>
-            <form action="submit_contact.php" method="POST"> <!-- formulário -->
+            <!-- Formulário para os usuários enviarem mensagens -->
+            <form action="submit_contact.php" method="POST">
                 <div class="form-group">
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required>
@@ -65,6 +70,7 @@
     </main>
 
     <footer>
+        <!-- Rodapé com informações de direitos autorais e link para a política de privacidade -->
         <div class="container">
             <p>&copy; 2024 Evento Renova Ae. Todos os direitos reservados.</p>
             <p><a href="politica.html">Política de Privacidade</a></p>
