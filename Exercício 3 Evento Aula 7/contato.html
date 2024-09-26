@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Evento Renova Ae</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Fonte -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo do Evento Renova Ae" class="logo"> 
+            <h1>Contato - Evento Renova Ae</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="programacao.html">Programação</a></li>
+                    <li><a href="palestrantes.html">Palestrantes</a></li>
+                    <li><a href="inscricao.html">Inscrições</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contato">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Se você tiver dúvidas ou precisar de mais informações, entre em contato com os organizadores do evento:</p>
+            <ul>
+                <li><strong>Email:</strong> contato@renovaae.com</li>
+                <li><strong>Telefone:</strong> (11) 99999-9999</li>
+                <li><strong>Endereço:</strong> Av Tupi, Centro, Pato Branco - PR</li>
+            </ul>
+
+            <h3>Local do Evento</h3>
+            <!-- Loc. mapa do Google Maps -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d894.7829362343882!2d-52.67074183310302!3d-26.22490848941428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1727309384103!5m2!1spt-BR!2sbr" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+
+            <h3>Formulário de Contato</h3>
+            <form action="submit_contact.php" method="POST"> <!-- formulário -->
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Digite sua mensagem aqui..."></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Evento Renova Ae. Todos os direitos reservados.</p>
+            <p><a href="politica.html">Política de Privacidade</a></p>
+        </div>
+    </footer>
+</body>
+</html>
