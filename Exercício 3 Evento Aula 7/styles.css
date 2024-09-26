@@ -1,0 +1,341 @@
+/* CSS DO INDEX */
+
+/* Estilo para a logo */
+.logo {
+    width: 120px; /* Ajuste a largura da logo conforme necessário */
+    height: auto; /* Mantém a proporção da logo */
+    float: left;  /* Faz a logo ficar à esquerda */
+    margin-right: 20px; /* Espaçamento entre a logo e o texto */
+}
+
+header h1 {
+    display: inline-block; /* Faz o título alinhar ao lado da logo */
+    vertical-align: middle; /* Alinha o texto verticalmente com a logo */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #46459b;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?event') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffc107;
+    color: #46459b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e0a800;
+}
+
+.destaques {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.destaques h2 {
+    margin-bottom: 20px;
+}
+
+.destaque {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.destaque:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background: #46459b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* CSS DA PROGRAMAÇÃO */
+
+
+.programacao {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.programacao h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #46459b;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* CSS DA PALESTRANTES */
+
+.palestrantes {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.palestrantes h2 {
+    margin-bottom: 20px;
+}
+
+.palestrante {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.palestrante:hover {
+    transform: translateY(-5px);
+}
+
+.palestrante h3 {
+    color: #46459b;
+    margin-bottom: 10px;
+}
+
+.palestrante p {
+    margin: 5px 0;
+}
+
+/* CSS DA INSCRIÇÃO */
+
+.inscricao {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.inscricao h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 300px; /* largura fixa para o formulário */
+    margin: 0 auto; /* centraliza o formulário */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #46459b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3838a0;
+}
+
+/* CSS DA CONTATO */
+
+.contato {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contato h2 {
+    margin-bottom: 20px;
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.contato li {
+    margin: 5px 0;
+}
+
+.mapa {
+    width: 100%;
+    max-width: 600px; /* Limita a largura máxima da imagem do mapa */
+    margin: 20px 0; /* Espaço acima e abaixo do mapa */
+    border: 1px solid #ddd; /* Borda para o mapa */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 300px; /* largura fixa para o formulário */
+    margin: 0 auto; /* centraliza o formulário */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #46459b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3838a0;
+}
