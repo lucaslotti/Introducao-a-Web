@@ -127,3 +127,14 @@ form button:hover {
 }
 
 
+/* Estilização do rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-primaria);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
