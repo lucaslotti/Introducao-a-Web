@@ -123,3 +123,15 @@ form button:hover {
     background-color: #C0392B; /* Cor mais escura do vermelho */
     transform: translateY(-2px); /* Efeito de levantar o botão */
 }
+
+/* Estilização do rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor-primaria);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
